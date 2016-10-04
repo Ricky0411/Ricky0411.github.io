@@ -1,77 +1,60 @@
 body {
-  background-color: #1F4C7F;
+  font-family: 'Exo', sans-serif;
 }
 
-.container {
-  padding-top: 50px;
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;;
 }
 
-.container > p.part-one {
-  padding-top: 100px;
-  padding-left: 100px;
-  color: #FFD50F;
-  font-size: 4em;
-  font-family: 'Days One', sans-serif;
+#banner {
+  background-image: url(galaxy.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container > p.part-two, p.info {
-  padding-left: 100px;
+header {
+  padding: 2rem 0;
+}
+
+#logo {
   color: white;
-  font-size: 2em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 700;
+  font-size: 1.5rem;
+  float: left;
+  margin: 0;
 }
 
-.container > .row > p {
-  padding-left: 95px;
-  font-size: 2em;
-  font-family: 'Open Sans Condensed', sans-serif;
+nav {
+  float: right;
 }
 
-.container > .row > .col-xs-12.col-sm-6.col-md-8 > p.skills {
-  position: absolute;
+a {
   color: white;
-  font-size: 4em;
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-left: 110px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 2rem;
 }
 
-.container > .row > .col-xs-6.col-md-4 > p.contact {
+.content {
+  padding: 2rem 0 6rem 0;
+}
+
+.title, .sub {
   color: white;
-  font-size: 4em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
 
-h3 {
-  position: absolute;
-  color: #FFD50F;
-  padding-top: 75px;
-  padding-left: 100px;
-  font-size: 2em;
-  font-family: 'Open Sans Condensed', sans-serif;
+.title {
+  font-size: 3.5rem;
+  margin: 0;
 }
 
-.container > .row > .col-xs-12.col-sm-6.col-md-8 > .col-xs-6.col-md-4 > .address > a {
-  color: white;
-  direction: none;
-}
-
-.container > .row > .col-xs-12.col-sm-6.col-md-8 > .col-xs-6.col-md-4 > .address > a > img {
-  padding-top: 10px;
-}
-
-li {
-  list-style-type: none;
-  color: white;
-  font-size: 1em;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-::-moz-selection {
-  color: black;
-  background: white;
-}
-
-::selection {
-  color: black;
-  background: white;
+.sub {
+  font-weight: 400;
+  font-size: 1.35rem;
+  width: 500px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.75;
 }
